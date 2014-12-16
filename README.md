@@ -266,6 +266,7 @@ __class Excoin::API__
 
 ### Troubleshooting
 __Problem:__ Excoin.api.account_issue_order returns a 404.
+
 __Solution:__ If the amount or price is very small, Ruby converts the number to scientific notation (i.e 1.809E-6). Passing the number as a string avoids this.
 
 ## Contributing
