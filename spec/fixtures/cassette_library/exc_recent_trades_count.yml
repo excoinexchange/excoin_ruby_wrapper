@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/exchange/BTC/BLK/trades/5?expire=1417128696
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 9af562518b3a5b46fb6203c1ba5e96fa3c57b6e882f64c281de1e2aaad4f4f50
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 27 Nov 2014 22:41:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3b4ae31f-9c32-4b09-bc37-677d8479290a
+      X-Runtime:
+      - '0.034596'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"count":5,"trades":[{"timestamp":"2014-11-27 21:57:16 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007428","commodity_amount":"16.87690832","currency_amount":"0.00125362"},{"timestamp":"2014-11-27
+        21:20:51 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007421","commodity_amount":"21.76730000","currency_amount":"0.00161535"},{"timestamp":"2014-11-27
+        21:05:27 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"138.57778132","currency_amount":"0.01046262"},{"timestamp":"2014-11-27
+        20:53:33 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"21.01492033","currency_amount":"0.00158663"},{"timestamp":"2014-11-27
+        20:49:57 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007540","commodity_amount":"1497.75000000","currency_amount":"0.11293035"}]}'
+    http_version: 
+  recorded_at: Thu, 27 Nov 2014 22:41:36 GMT
+recorded_with: VCR 2.9.3

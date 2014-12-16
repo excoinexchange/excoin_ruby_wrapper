@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/exchange/BTC/BLK/chart/orderdepth?expire=1417129281
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 39bb010abdfea7010ec1ea8e99d2e7bdf2f2ce1a6a91d0e8a90749fc56198a0b
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 27 Nov 2014 22:51:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 12c0562e-5a6f-459c-8398-7f97a61741ca
+      X-Runtime:
+      - '0.051865'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '[{"BID":"1.04151906","price":"0.00006"},{"BID":"1.03051906","price":"0.000061"},{"BID":"1.02698106","price":"0.000062"},{"BID":"1.02542176","price":"0.0000623"},{"BID":"1.02528968","price":"0.00006233"},{"BID":"1.02460768","price":"0.0000631"},{"BID":"1.02164198","price":"0.000064"},{"BID":"1.02016998","price":"0.0000645"},{"BID":"1.02004098","price":"0.00006455"},{"BID":"1.01933698","price":"0.0000646"},{"BID":"1.01920778","price":"0.00006476"},{"BID":"1.01913007","price":"0.00006478"},{"BID":"1.01906529","price":"0.000065"},{"BID":"1.01893529","price":"0.0000653"},{"BID":"1.01821699","price":"0.0000654"},{"BID":"1.01684359","price":"0.0000655"},{"BID":"1.01605759","price":"0.00006554"},{"BID":"1.01579543","price":"0.00006555"},{"BID":"1.00130888","price":"0.00006556"},{"BID":"0.99282888","price":"0.0000658"},{"BID":"0.99279775","price":"0.000066"},{"BID":"0.96751314","price":"0.00007"},{"BID":"0.84878703","price":"0.0000705"},{"BID":"0.78878703","price":"0.000071"},{"BID":"0.75752795","price":"0.000072"},{"ASK":"0.00599368","price":"0.00007423"},{"ASK":"0.01518195","price":"0.00007428"},{"ASK":"0.01643745","price":"0.00007429"},{"ASK":"0.05393245","price":"0.00007499"},{"ASK":"0.08283251","price":"0.000075"},{"ASK":"0.23670332","price":"0.0000755"},{"ASK":"0.28326426","price":"0.00007575"},{"ASK":"0.28485327","price":"0.00007592"},{"ASK":"0.29533161","price":"0.00007593"},{"ASK":"0.30503043","price":"0.00007595"},{"ASK":"0.30942851","price":"0.00007596"},{"ASK":"0.31421588","price":"0.00007599"},{"ASK":"0.35021734","price":"0.000076"},{"ASK":"0.42647734","price":"0.00007626"},{"ASK":"0.45699734","price":"0.0000763"},{"ASK":"0.50045065","price":"0.00007699"},{"ASK":"0.53541669","price":"0.000077"},{"ASK":"0.57441169","price":"0.00007799"},{"ASK":"0.63217872","price":"0.000078"},{"ASK":"0.69105372","price":"0.0000785"},{"ASK":"0.88855372","price":"0.000079"},{"ASK":"0.97202872","price":"0.0000795"},{"ASK":"1.09401347","price":"0.00007999"},{"ASK":"1.28869945","price":"0.00008"},{"ASK":"1.30489945","price":"0.000081"},{"ASK":"1.50989945","price":"0.000082"},{"ASK":"1.69279445","price":"0.0000822"},{"ASK":"1.90110695","price":"0.0000825"},{"ASK":"1.90260793","price":"0.000083"},{"ASK":"2.15460793","price":"0.000084"},{"ASK":"2.36535793","price":"0.0000843"},{"ASK":"2.41834323","price":"0.000085"},{"ASK":"2.42908023","price":"0.000088"},{"ASK":"2.65254495","price":"0.000092"},{"ASK":"2.65305002","price":"0.0000946"},{"ASK":"2.84813203","price":"0.000095"},{"ASK":"2.94333203","price":"0.0000952"},{"ASK":"2.96246603","price":"0.00009567"},{"ASK":"3.16206603","price":"0.0000998"},{"ASK":"3.76469568","price":"0.0001"},{"ASK":"3.81369288","price":"0.00011666"},{"ASK":"3.86309288","price":"0.0001235"},{"ASK":"4.18872260","price":"0.00013"},{"ASK":"4.19979254","price":"0.000132"},{"ASK":"4.20056379","price":"0.000134"},{"ASK":"4.54802173","price":"0.000135"},{"ASK":"4.58442173","price":"0.0001456"},{"ASK":"4.60509773","price":"0.000198"},{"ASK":"4.62199261","price":"0.0002025"},{"ASK":"4.62284088","price":"0.0002046"},{"ASK":"4.63343823","price":"0.000264"},{"ASK":"4.63725019","price":"0.00027"},{"ASK":"24.63725019","price":"0.1"},{"ASK":"58.63725019","price":"0.2"},{"ASK":"168.64836019","price":"1.1001111"},{"ASK":"1786.68235019","price":"1.61803399"},{"ASK":"6186.68235019","price":"100"}]'
+    http_version: 
+  recorded_at: Thu, 27 Nov 2014 22:51:21 GMT
+recorded_with: VCR 2.9.3

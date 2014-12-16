@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/summary?expire=1417128693
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - e2dc303854809079cd69c1ed7062416fb4fdd4372121e3b91c464b9e9d06fa99
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 27 Nov 2014 22:41:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5c85b6fd-6ba7-422f-8516-63b88809204a
+      X-Runtime:
+      - '0.187272'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '[{"currency":"BTC","commodity":"BLK","last_price":"0.00007428","high":"0.00007600","low":"0.00007200","volume":"3.23791014","top_bid":"0.00007200","lowest_ask":"0.00007423","ask_depth":"41984.31750071","ask_count":"135","bid_depth":"1.04151906","bid_count":"31"},{"currency":"BLK","commodity":"DRK","last_price":"76.00000000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"76.00000000","lowest_ask":"95.00000000","ask_depth":"4.79653306","ask_count":"2","bid_depth":"3104.14482286","bid_count":"26"},{"currency":"BLK","commodity":"LTC","last_price":"175.00000000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"100.00000000","lowest_ask":"106.00000000","ask_depth":"2.00000000","ask_count":"1","bid_depth":"1258.81100000","bid_count":"26"},{"currency":"BLK","commodity":"DOGE","last_price":"0.00750000","high":"0.00750000","low":"0.00700000","volume":"37.88043546","top_bid":"0.00700000","lowest_ask":"0.00000000","ask_depth":"0.00000000","ask_count":"0","bid_depth":"956.11652505","bid_count":"15"},{"currency":"BLK","commodity":"PPC","last_price":"31.99000000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"31.99000000","lowest_ask":"0.00000000","ask_depth":"0.00000000","ask_count":"0","bid_depth":"763.71473219","bid_count":"16"},{"currency":"BTC","commodity":"DRK","last_price":"0.00632000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"0.00000000","lowest_ask":"0.00650000","ask_depth":"0.95598940","ask_count":"8","bid_depth":"0.00000000","bid_count":"0"},{"currency":"BTC","commodity":"LTC","last_price":"0.01000000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"0.00800000","lowest_ask":"0.00999999","ask_depth":"14.13834314","ask_count":"13","bid_depth":"0.00080000","bid_count":"1"},{"currency":"BTC","commodity":"PPC","last_price":"0.00210000","high":"0.00000000","low":"0.00000000","volume":"0.00000000","top_bid":"0.00000000","lowest_ask":"0.00210000","ask_depth":"1.87999200","ask_count":"12","bid_depth":"0.00000000","bid_count":"0"},{"currency":"BTC","commodity":"DOGE","last_price":"0.00000065","high":"0.00000071","low":"0.00000064","volume":"0.01002467","top_bid":"0.00000065","lowest_ask":"0.00000066","ask_depth":"1038.00000000","ask_count":"1","bid_depth":"0.00493461","bid_count":"5"}]'
+    http_version: 
+  recorded_at: Thu, 27 Nov 2014 22:41:34 GMT
+recorded_with: VCR 2.9.3

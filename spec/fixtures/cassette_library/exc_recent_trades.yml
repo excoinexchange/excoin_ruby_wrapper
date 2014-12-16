@@ -1,0 +1,157 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/exchange/BTC/BLK/trades/100?expire=1417128695
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 4fc14a32237b81abcb5f4ebfdbb763a2a42e721eb48422e50d4cdb2518510626
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 27 Nov 2014 22:41:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 32aae149-c364-4c40-a223-5d6480f20033
+      X-Runtime:
+      - '0.093592'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"count":100,"trades":[{"timestamp":"2014-11-27 21:57:16 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007428","commodity_amount":"16.87690832","currency_amount":"0.00125362"},{"timestamp":"2014-11-27
+        21:20:51 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007421","commodity_amount":"21.76730000","currency_amount":"0.00161535"},{"timestamp":"2014-11-27
+        21:05:27 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"138.57778132","currency_amount":"0.01046262"},{"timestamp":"2014-11-27
+        20:53:33 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"21.01492033","currency_amount":"0.00158663"},{"timestamp":"2014-11-27
+        20:49:57 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007540","commodity_amount":"1497.75000000","currency_amount":"0.11293035"},{"timestamp":"2014-11-27
+        20:49:45 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007540","commodity_amount":"37.28215044","currency_amount":"0.00281108"},{"timestamp":"2014-11-27
+        20:49:41 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007530","commodity_amount":"998.50000000","currency_amount":"0.07518705"},{"timestamp":"2014-11-27
+        20:48:51 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"199.70000000","currency_amount":"0.01437840"},{"timestamp":"2014-11-27
+        20:29:38 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"3994.00000000","currency_amount":"0.28756800"},{"timestamp":"2014-11-27
+        20:26:12 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"2496.25000000","currency_amount":"0.17973000"},{"timestamp":"2014-11-27
+        20:25:13 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"3994.00000000","currency_amount":"0.28756800"},{"timestamp":"2014-11-27
+        20:24:43 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"2.99550000","currency_amount":"0.00021568"},{"timestamp":"2014-11-27
+        20:23:58 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"3.99400000","currency_amount":"0.00028757"},{"timestamp":"2014-11-27
+        20:22:58 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"41.93700000","currency_amount":"0.00301946"},{"timestamp":"2014-11-27
+        20:22:40 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"2.99550000","currency_amount":"0.00021568"},{"timestamp":"2014-11-27
+        20:19:42 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        20:16:17 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007429","commodity_amount":"148.77650000","currency_amount":"0.01105261"},{"timestamp":"2014-11-27
+        20:06:28 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007427","commodity_amount":"69.60339551","currency_amount":"0.00516944"},{"timestamp":"2014-11-27
+        19:58:07 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"499.25000000","currency_amount":"0.03594600"},{"timestamp":"2014-11-27
+        19:45:49 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        19:32:24 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        19:31:50 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        19:31:32 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        19:26:57 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"1.99700000","currency_amount":"0.00014378"},{"timestamp":"2014-11-27
+        19:16:45 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"4.99250000","currency_amount":"0.00035946"},{"timestamp":"2014-11-27
+        19:15:56 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"4.99250000","currency_amount":"0.00035946"},{"timestamp":"2014-11-27
+        19:11:43 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"9.98500000","currency_amount":"0.00071892"},{"timestamp":"2014-11-27
+        18:58:43 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007429","commodity_amount":"128.50690968","currency_amount":"0.00954678"},{"timestamp":"2014-11-27
+        18:53:13 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"9.98500000","currency_amount":"0.00071892"},{"timestamp":"2014-11-27
+        18:49:42 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"24.96250000","currency_amount":"0.00179730"},{"timestamp":"2014-11-27
+        18:48:42 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007200","commodity_amount":"24.96250000","currency_amount":"0.00179730"},{"timestamp":"2014-11-27
+        18:47:49 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"58.16533616","currency_amount":"0.00439148"},{"timestamp":"2014-11-27
+        18:31:35 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"57.85309000","currency_amount":"0.00429444"},{"timestamp":"2014-11-27
+        18:09:48 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007335","commodity_amount":"9625.85159734","currency_amount":"0.70605621"},{"timestamp":"2014-11-27
+        18:09:48 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007388","commodity_amount":"1749.14197198","currency_amount":"0.12922661"},{"timestamp":"2014-11-27
+        18:09:47 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007388","commodity_amount":"4108.71262115","currency_amount":"0.30355169"},{"timestamp":"2014-11-27
+        18:09:47 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007390","commodity_amount":"4053.45060893","currency_amount":"0.29955000"},{"timestamp":"2014-11-27
+        18:09:47 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007399","commodity_amount":"2389.90280004","currency_amount":"0.17682891"},{"timestamp":"2014-11-27
+        18:09:46 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007399","commodity_amount":"3035.44040485","currency_amount":"0.22459224"},{"timestamp":"2014-11-27
+        18:04:15 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007399","commodity_amount":"221.66700000","currency_amount":"0.01640114"},{"timestamp":"2014-11-27
+        17:50:38 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007421","commodity_amount":"5.99100000","currency_amount":"0.00044459"},{"timestamp":"2014-11-27
+        17:50:34 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"62.01097959","currency_amount":"0.00460308"},{"timestamp":"2014-11-27
+        17:35:11 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"249.62500000","currency_amount":"0.01884669"},{"timestamp":"2014-11-27
+        17:34:49 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"249.62500000","currency_amount":"0.01884669"},{"timestamp":"2014-11-27
+        17:34:21 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"4.95203099","currency_amount":"0.00037388"},{"timestamp":"2014-11-27
+        17:34:15 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"65.53000943","currency_amount":"0.00486429"},{"timestamp":"2014-11-27
+        17:34:02 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"44.06407127","currency_amount":"0.00330481"},{"timestamp":"2014-11-27
+        17:33:41 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"4.99250000","currency_amount":"0.00037444"},{"timestamp":"2014-11-27
+        17:32:55 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"353.00069689","currency_amount":"0.02665155"},{"timestamp":"2014-11-27
+        17:32:16 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"33.94900000","currency_amount":"0.00254617"},{"timestamp":"2014-11-27
+        17:31:59 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"45.94511213","currency_amount":"0.00344588"},{"timestamp":"2014-11-27
+        17:30:40 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"7.87642714","currency_amount":"0.00059073"},{"timestamp":"2014-11-27
+        17:30:19 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"63.31376086","currency_amount":"0.00478019"},{"timestamp":"2014-11-27
+        17:07:45 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"25.59656744","currency_amount":"0.00192230"},{"timestamp":"2014-11-27
+        16:26:37 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"37.94300000","currency_amount":"0.00286470"},{"timestamp":"2014-11-27
+        16:20:16 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"9.98500000","currency_amount":"0.00075387"},{"timestamp":"2014-11-27
+        16:16:49 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"62.01094385","currency_amount":"0.00465702"},{"timestamp":"2014-11-27
+        15:37:06 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"0.73994801","currency_amount":"0.00005587"},{"timestamp":"2014-11-27
+        15:36:12 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"0.74495279","currency_amount":"0.00005595"},{"timestamp":"2014-11-27
+        15:32:56 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"128.26850026","currency_amount":"0.00968427"},{"timestamp":"2014-11-27
+        15:24:12 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"204.69250000","currency_amount":"0.01545428"},{"timestamp":"2014-11-27
+        15:22:41 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"90.21785639","currency_amount":"0.00677536"},{"timestamp":"2014-11-27
+        15:11:06 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"22.89636285","currency_amount":"0.00171952"},{"timestamp":"2014-11-27
+        15:09:04 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007510","commodity_amount":"48.15827989","currency_amount":"0.00361669"},{"timestamp":"2014-11-27
+        14:41:35 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"5.99100000","currency_amount":"0.00044932"},{"timestamp":"2014-11-27
+        14:33:04 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007592","commodity_amount":"187.51830000","currency_amount":"0.01423639"},{"timestamp":"2014-11-27
+        13:27:18 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007596","commodity_amount":"30.95350000","currency_amount":"0.00235123"},{"timestamp":"2014-11-27
+        12:20:45 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"65.53005725","currency_amount":"0.00491476"},{"timestamp":"2014-11-27
+        10:51:20 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007500","commodity_amount":"199.70000000","currency_amount":"0.01497750"},{"timestamp":"2014-11-27
+        10:50:13 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007399","commodity_amount":"413.55646013","currency_amount":"0.03059904"},{"timestamp":"2014-11-27
+        08:41:21 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007596","commodity_amount":"32.75976494","currency_amount":"0.00248843"},{"timestamp":"2014-11-27
+        08:24:37 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007410","commodity_amount":"232.57274905","currency_amount":"0.01723364"},{"timestamp":"2014-11-27
+        08:24:29 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007411","commodity_amount":"223.05568432","currency_amount":"0.01653066"},{"timestamp":"2014-11-27
+        08:24:25 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007419","commodity_amount":"66.89950000","currency_amount":"0.00496327"},{"timestamp":"2014-11-27
+        08:24:16 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007420","commodity_amount":"137.33815768","currency_amount":"0.01019049"},{"timestamp":"2014-11-27
+        08:24:00 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007598","commodity_amount":"109.23587372","currency_amount":"0.00829974"},{"timestamp":"2014-11-27
+        08:23:51 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007599","commodity_amount":"109.19784689","currency_amount":"0.00829794"},{"timestamp":"2014-11-27
+        08:03:59 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007600","commodity_amount":"1.99700000","currency_amount":"0.00015177"},{"timestamp":"2014-11-27
+        07:28:01 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007599","commodity_amount":"109.23590000","currency_amount":"0.00830084"},{"timestamp":"2014-11-27
+        02:41:07 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007428","commodity_amount":"77.01515994","currency_amount":"0.00572069"},{"timestamp":"2014-11-27
+        02:34:08 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"64.40325000","currency_amount":"0.00478066"},{"timestamp":"2014-11-27
+        01:42:27 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007428","commodity_amount":"57.51360000","currency_amount":"0.00427211"},{"timestamp":"2014-11-27
+        00:21:54 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007429","commodity_amount":"115.76605505","currency_amount":"0.00860026"},{"timestamp":"2014-11-27
+        00:21:21 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007597","commodity_amount":"150.67361057","currency_amount":"0.01144667"},{"timestamp":"2014-11-27
+        00:11:10 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007420","commodity_amount":"66.89950000","currency_amount":"0.00496394"},{"timestamp":"2014-11-26
+        22:25:51 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007600","commodity_amount":"428.35650000","currency_amount":"0.03255509"},{"timestamp":"2014-11-26
+        22:04:27 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007575","commodity_amount":"10.73384205","currency_amount":"0.00081309"},{"timestamp":"2014-11-26
+        21:20:29 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007418","commodity_amount":"246.89480145","currency_amount":"0.01831466"},{"timestamp":"2014-11-26
+        20:40:51 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007600","commodity_amount":"6.80228125","currency_amount":"0.00051697"},{"timestamp":"2014-11-26
+        20:03:11 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007600","commodity_amount":"8880.67673652","currency_amount":"0.67493143"},{"timestamp":"2014-11-26
+        20:03:10 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007600","commodity_amount":"199.70000000","currency_amount":"0.01517720"},{"timestamp":"2014-11-26
+        19:48:15 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007596","commodity_amount":"0.19967371","currency_amount":"0.00001517"},{"timestamp":"2014-11-26
+        19:47:51 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007597","commodity_amount":"246.62950000","currency_amount":"0.01873644"},{"timestamp":"2014-11-26
+        19:28:15 UTC","currency":"BTC","commodity":"BLK","type":"BUY","price":"0.00007550","commodity_amount":"1448.42103005","currency_amount":"0.10935579"},{"timestamp":"2014-11-26
+        17:36:34 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007410","commodity_amount":"299.10478489","currency_amount":"0.02216366"},{"timestamp":"2014-11-26
+        17:36:33 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007420","commodity_amount":"9.98500000","currency_amount":"0.00074089"},{"timestamp":"2014-11-26
+        17:36:32 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007421","commodity_amount":"9.98365449","currency_amount":"0.00074089"},{"timestamp":"2014-11-26
+        17:36:32 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007422","commodity_amount":"9.86028840","currency_amount":"0.00073183"},{"timestamp":"2014-11-26
+        17:36:32 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"8.76455132","currency_amount":"0.00065059"},{"timestamp":"2014-11-26
+        17:36:32 UTC","currency":"BTC","commodity":"BLK","type":"SELL","price":"0.00007423","commodity_amount":"9.64212293","currency_amount":"0.00071573"}]}'
+    http_version: 
+  recorded_at: Thu, 27 Nov 2014 22:41:36 GMT
+recorded_with: VCR 2.9.3

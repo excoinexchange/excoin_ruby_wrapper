@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/account/order/<%= order_id %>/cancel?expire=1417294490
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 83eb44be9a79dae20c509682b00197b5a12fee041376b7bdcc6c922b71da801d
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 29 Nov 2014 20:44:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6d3169b8-316a-401c-b423-fced07f2929b
+      X-Runtime:
+      - '0.108582'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"id":"<%= order_id %>","timestamp":"2014-11-29
+        20:44:49 UTC","type":"BID","price":"0.00007250","commodity_amount":"451.53903448","currency_amount":"0.03273658","status":"CLOSED","trades":[]}'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 20:44:50 GMT
+recorded_with: VCR 2.9.3

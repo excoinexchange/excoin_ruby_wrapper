@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/wallet/BTC?expire=1417298275
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 269b5dee81a1f52978b4b18d29147c387456fdaf93cd38e654224f9ca2823eb9
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 29 Nov 2014 21:47:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9eac355c-93db-4b6e-8bd1-f9961531e0bb
+      X-Runtime:
+      - '0.007364'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"iso_code":"BTC","currency_name":"Bitcoin","hot_balance":"12.38711208","cold_balance":"0.00000000","block_height":"332186","transaction_fee":"0.00020000","confirmations":"3","last_updated":"2014-11-29
+        13:19:48 UTC"}'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 21:47:56 GMT
+recorded_with: VCR 2.9.3

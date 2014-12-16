@@ -1,0 +1,32 @@
+# RVM stuff
+.ruby-version
+.ruby-gemset
+
+# Secrets
+config/config.yml
+config/API_key
+
+*.swp
+*.swo
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+doc/
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log

@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/account/orders/issue/<%= $currency %>/<%= $commodity %>/<%= $type %>/<%= $amount %>/<%= $price %>?expire=1417294489
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 6bd2e0b89206f0207682bf158d3d6731642c44052afafeff20b29c208df991ad
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 29 Nov 2014 20:44:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bb6034e5-288e-4f1b-97ce-59f827927887
+      X-Runtime:
+      - '0.085639'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"id":"BTC-BLK-BID-Ot2EUeBHPUJYJbAd4V1lKd","timestamp":"2014-11-29
+        20:44:49 UTC","type":"<%= $type %>","price":"<%= $price %>","commodity_amount":"451","currency_amount":"<%= $amount %>","status":"OPEN"}'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 20:44:49 GMT
+recorded_with: VCR 2.9.3

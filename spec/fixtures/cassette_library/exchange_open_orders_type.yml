@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/exchange/BTC/BLK/orders/type/BID?expire=1417131883
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - 41c9673019a6700ae978562a58d72005f006d196529156b228f8c3dd6071d29b
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 27 Nov 2014 23:34:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 08838d7a-5c40-4e2a-8d2c-07de60fc0d69
+      X-Runtime:
+      - '0.038127'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '{"count":32,"type":"BID","orders":[{"id":"BTC-BLK-BID-XMVS8K0Uz80W66MOqds9cA","price":"0.00007425","commodity_amount":"4116.80255892","currency_amount":"0.30567259"},{"id":"BTC-BLK-BID-mBljUAg9ozU9wWdLEtSJkG","price":"0.00007200","commodity_amount":"3466.88305556","currency_amount":"0.24961558"},{"id":"BTC-BLK-BID-xMkbH4fSkE5wCGtzzLAIvi","price":"0.00007200","commodity_amount":"7054.33847222","currency_amount":"0.50791237"},{"id":"BTC-BLK-BID-zicMPSv2dSLFzKhHdNQt8A","price":"0.00007100","commodity_amount":"440.26873239","currency_amount":"0.03125908"},{"id":"BTC-BLK-BID-Wwm6cK4xwAuUyXvZmBYYne","price":"0.00007050","commodity_amount":"851.06382979","currency_amount":"0.06000000"},{"id":"BTC-BLK-BID-adKNPOnhpWbkqaU9BbVWdz","price":"0.00007000","commodity_amount":"1696.08728571","currency_amount":"0.11872611"},{"id":"BTC-BLK-BID-p7tm3khDRL1nuViCCslOUK","price":"0.00006600","commodity_amount":"383.10015152","currency_amount":"0.02528461"},{"id":"BTC-BLK-BID-vTgZUk0e6d4IPEOWUoSFMB","price":"0.00006580","commodity_amount":"0.47310030","currency_amount":"0.00003113"},{"id":"BTC-BLK-BID-vCn1Vzeih1YwITnoWZzoAh","price":"0.00006556","commodity_amount":"129.34716290","currency_amount":"0.00848000"},{"id":"BTC-BLK-BID-jD0v0gIeFHQD41KI7ufcoF","price":"0.00006555","commodity_amount":"221.00000000","currency_amount":"0.01448655"},{"id":"BTC-BLK-BID-zmj2E9MOPEY2o3ex0EZdKm","price":"0.00006554","commodity_amount":"2.00000000","currency_amount":"0.00013108"},{"id":"BTC-BLK-BID-9Hr03ULwOkb1XVxOteVD5D","price":"0.00006554","commodity_amount":"2.00000000","currency_amount":"0.00013108"},{"id":"BTC-BLK-BID-h89WNWa40fQhGhCqOc7mPx","price":"0.00006550","commodity_amount":"12.00000000","currency_amount":"0.00078600"},{"id":"BTC-BLK-BID-qa3qKdmbb6imIGhAFypVLD","price":"0.00006540","commodity_amount":"21.00000000","currency_amount":"0.00137340"},{"id":"BTC-BLK-BID-rgkqcgK60p4JTs1JfLW7uu","price":"0.00006530","commodity_amount":"11.00000000","currency_amount":"0.00071830"},{"id":"BTC-BLK-BID-parxyXTLwNDIMlua4YNjcV","price":"0.00006500","commodity_amount":"2.00000000","currency_amount":"0.00013000"},{"id":"BTC-BLK-BID-hWxSJzxiejKvI2LavFVr0u","price":"0.00006478","commodity_amount":"1.00000000","currency_amount":"0.00006478"},{"id":"BTC-BLK-BID-coDtlmu2VwanmqeUlreNPH","price":"0.00006476","commodity_amount":"1.19996912","currency_amount":"0.00007771"},{"id":"BTC-BLK-BID-vwjqjEPwlmuxuF9rkFf8t9","price":"0.00006460","commodity_amount":"2.00000000","currency_amount":"0.00012920"},{"id":"BTC-BLK-BID-8eOfo2WlrTABLU7as9nHVB","price":"0.00006455","commodity_amount":"10.90627421","currency_amount":"0.00070400"},{"id":"BTC-BLK-BID-AzbnbICROZxHK33Rkyzdwr","price":"0.00006450","commodity_amount":"2.00000000","currency_amount":"0.00012900"},{"id":"BTC-BLK-BID-SiU3OAQatUZLwdV9cP6Iv1","price":"0.00006400","commodity_amount":"1.00000000","currency_amount":"0.00006400"},{"id":"BTC-BLK-BID-gozBJatrpyJuRB6FIE7Ml4","price":"0.00006400","commodity_amount":"22.00000000","currency_amount":"0.00140800"},{"id":"BTC-BLK-BID-KGtaUYSes2xbxax6ZuYXng","price":"0.00006310","commodity_amount":"22.00000000","currency_amount":"0.00138820"},{"id":"BTC-BLK-BID-SewXY7v2Zfj4o9UmZ2fh8e","price":"0.00006310","commodity_amount":"25.00000000","currency_amount":"0.00157750"},{"id":"BTC-BLK-BID-rvFF5DW3ciNjnqsnNAjycK","price":"0.00006233","commodity_amount":"10.94176159","currency_amount":"0.00068200"},{"id":"BTC-BLK-BID-wV8fOGHOjCgE8HpRrX2Pgy","price":"0.00006230","commodity_amount":"2.12006421","currency_amount":"0.00013208"},{"id":"BTC-BLK-BID-UuL9AQQV1YnR7Om397YuOZ","price":"0.00006200","commodity_amount":"0.15000000","currency_amount":"0.00000930"},{"id":"BTC-BLK-BID-ukTaFe1eoDmz4NF5lDLqAX","price":"0.00006200","commodity_amount":"25.00000000","currency_amount":"0.00155000"},{"id":"BTC-BLK-BID-qC01O4TlqMzIhbe2gcJfvC","price":"0.00006100","commodity_amount":"33.00000000","currency_amount":"0.00201300"},{"id":"BTC-BLK-BID-OAeRCyFcJTePe0h1NTRLTe","price":"0.00006100","commodity_amount":"25.00000000","currency_amount":"0.00152500"},{"id":"BTC-BLK-BID-p6hDhxgv8K3lDNdWpsOVhG","price":"0.00006000","commodity_amount":"183.33333333","currency_amount":"0.01100000"}]}'
+    http_version: 
+  recorded_at: Thu, 27 Nov 2014 23:34:44 GMT
+recorded_with: VCR 2.9.3

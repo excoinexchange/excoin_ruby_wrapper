@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.exco.in/v1/wallets/summary?expire=1417298274
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Api-Key:
+      - 4Tas39EdsfAZ2rOFFY345wvIOMcD1IjLNdo9fudQfUdd
+      Api-Signature:
+      - eb0d4e3f0fee598797b1dbc6b8a779ff7ce0ca6c2f80655d146f061607a1587b
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 29 Nov 2014 21:47:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c331c6ca-3e7a-4601-b597-6c6797444797
+      X-Runtime:
+      - '0.010109'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+    body:
+      encoding: UTF-8
+      string: '[{"iso_code":"PPC","currency_name":"Peercoin","hot_balance":"1.88999200","cold_balance":"0.00000000","block_height":"145832","transaction_fee":"0.01000000","confirmations":"6","last_updated":"2014-11-26
+        05:56:53 UTC"},{"iso_code":"NSR","currency_name":"NuShare","hot_balance":"12000.00000000","cold_balance":"0.00000000","block_height":"112339","transaction_fee":"1.00000000","confirmations":"6","last_updated":"2014-11-29
+        14:44:21 UTC"},{"iso_code":"DRK","currency_name":"Darkcoin","hot_balance":"15.22592304","cold_balance":"0.00000000","block_height":"177953","transaction_fee":"0.00200000","confirmations":"6","last_updated":"2014-11-28
+        00:01:25 UTC"},{"iso_code":"LTC","currency_name":"Litecoin","hot_balance":"74.41561788","cold_balance":"0.00000000","block_height":"685498","transaction_fee":"0.00200000","confirmations":"6","last_updated":"2014-11-28
+        10:32:03 UTC"},{"iso_code":"DOGE","currency_name":"Dogecoin","hot_balance":"43458.00777262","cold_balance":"0.00000000","block_height":"479908","transaction_fee":"2.00000000","confirmations":"8","last_updated":"2014-11-28
+        14:05:21 UTC"},{"iso_code":"BLK","currency_name":"Blackcoin","hot_balance":"165359.40579869","cold_balance":"0.00000000","block_height":"472273","transaction_fee":"0.00010000","confirmations":"10","last_updated":"2014-11-29
+        18:04:16 UTC"},{"iso_code":"BTC","currency_name":"Bitcoin","hot_balance":"12.38711208","cold_balance":"0.00000000","block_height":"332186","transaction_fee":"0.00020000","confirmations":"3","last_updated":"2014-11-29
+        13:19:48 UTC"}]'
+    http_version: 
+  recorded_at: Sat, 29 Nov 2014 21:47:55 GMT
+recorded_with: VCR 2.9.3
