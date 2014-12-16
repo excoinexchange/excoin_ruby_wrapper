@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{A sophisticiated ruby wrapper for the excoin crypto currency exchange.}
   spec.description   = %q{Excoin wrapper provides all the basic API functionality with an additional abstraction to make accessing the data easier and more efficient. This will be used as a library for writing bots for the Excoin crypto currency exchange.}
   spec.homepage      = "https://exco.in"
-  spec.license       = "MIT"
+  spec.license       = "GPL"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
