@@ -6,18 +6,15 @@ A wrapper for accessing the exchange and account API at exco.in.
 
 To install with Bundler, add this line to your application's Gemfile:
 
-    gem 'excoin_wrapper', git: "https://github.com/excoinexchange/excoin_wrapper_ruby.git"
+    gem 'excoin'
 
 And then execute:
 
     $ bundle
 
-Or build and it install it yourself:
+Or install it yourself:
 
-    $ git clone https://github.com/excoinexchange/excoin_wrapper_ruby.git
-    $ cd excoin_wrapper_ruby
-    $ gem build excoin.gemspec
-    $ gem install ./excoin-0.0.1.gem
+    $ gem install excoin
 
 Finally, `require 'excoin'` in your application.
 
